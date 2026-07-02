@@ -5,6 +5,7 @@ import { UserController } from './user/user.controller';
 import { UserModule } from './user/user.module';
 import { DatabaseModule } from './database/database.module';
 import { PrismaService } from './database/prisma.service';
+import { AuthService } from './auth/auth.service';
 
 @Module({
   imports: [AuthModule, UserModule, DatabaseModule],
